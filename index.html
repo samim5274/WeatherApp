@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <form action="">
+            <input type="text" autocomplete="off" id="valueSearch">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <section class="result">
+                <figure class="name" id="city">
+                    <figcaption>London</figcaption>
+                    <img src="https://flagsapi.com/GB/shiny/32.png" alt="">
+                </figure>
+                <figure class="name">
+                    <figcaption class="temperature" id="temperature">
+                    <img src="http://openweathermap.org/img/wn/10d@4x.png" alt="">
+                    <figcaption>
+                        <span>31</span>
+                        <sup>o</sup>
+                    </figcaption>
+                </figure>
+                <p class="description" id="description">Overcast cluds</p>
+                <ul>
+                    <li>
+                        <span>Cluds</span>
+                        <i class="fa-solid fa-cloud"></i>
+                        <span id="clouds">98</span>%
+                    </li>
+                    <li>
+                        <span>Humidity</span>
+                        <i class="fa-solid fa-droplet"></i>
+                        <span id="humidity">50</span>%
+                    </li>
+                     <li>
+                        <span>Pressure</span>
+                        <i class="fa-solid fa-gauge"></i>
+                        <span id="pressure">100</span>hPa
+                    </li>
+                </ul>
+            </section>
+    </main>
+<!-- <p>https://www.youtube.com/watch?v=WlYknHl_8fM</p> -->
+    <script src="main.js"></script>
+</body>
+</html>
